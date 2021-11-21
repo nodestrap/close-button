@@ -1,6 +1,6 @@
 {
   "name": "@nodestrap/close-button",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A button for dismissing content.",
   "type": "module",
   "main": "dist/CloseButton.jsx",
