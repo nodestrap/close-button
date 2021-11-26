@@ -4,15 +4,15 @@ import { default as React, } from 'react'; // base technology of our nodestrap c
 import { ButtonIcon, } from '@nodestrap/button-icon';
 export function CloseButton(props) {
     // jsx:
-    return (<ButtonIcon 
+    return (React.createElement(ButtonIcon
     // other props:
-    {...props} 
-    // accessibilities:
-    label={props.label ?? 'Close'} 
-    // appearances:
-    icon={props.icon ?? 'close'} 
-    // variants:
-    btnStyle={props.btnStyle ?? 'icon'}/>);
+    , { ...props, 
+        // accessibilities:
+        label: props.label ?? 'Close', 
+        // appearances:
+        icon: props.icon ?? 'close', 
+        // variants:
+        btnStyle: props.btnStyle ?? 'icon' }));
 }
 CloseButton.prototype = ButtonIcon.prototype; // mark as ButtonIcon compatible
 export { CloseButton as default };

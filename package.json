@@ -1,9 +1,9 @@
 {
   "name": "@nodestrap/close-button",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A button for dismissing content.",
   "type": "module",
-  "main": "dist/CloseButton.jsx",
+  "main": "dist/CloseButton.js",
   "types": "dist/CloseButton.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/nodestrap/close-button#readme",
   "dependencies": {
-    "@nodestrap/button-icon": "^4.0.1",
-    "@types/react": "^17.0.35",
+    "@nodestrap/button-icon": "^4.0.2",
+    "@types/react": "^17.0.37",
     "react": "^17.0.2"
   }
 }
